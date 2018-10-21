@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  verdaccio:
+    image: verdaccio/verdaccio:3.0.1
+    volumes:
+      - ./config.yml:/verdaccio/conf/config.yml
+    ports:
+      - 9900:4873
