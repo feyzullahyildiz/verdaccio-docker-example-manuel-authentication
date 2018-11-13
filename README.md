@@ -1,3 +1,6 @@
+# Important
+Here is a bug is happining in verdaccio, that means this project is not usable for now. That is here [404 not found](https://github.com/verdaccio/verdaccio/issues/1085)
+
 ## Verdaccio dockerized example
 
 To start the server
